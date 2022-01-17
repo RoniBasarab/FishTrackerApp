@@ -44,7 +44,7 @@ class MainFragment : Fragment() {
     {
         fishAdapter = FishAdapter()
         binding.rvFishRecycler.adapter = fishAdapter
-        binding.rvFishRecycler.layoutManager = GridLayoutManager(this.context,2)
+        binding.rvFishRecycler.layoutManager = LinearLayoutManager(this.context)
 
         setupObserver()
         setupOnClickListeners()

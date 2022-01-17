@@ -96,7 +96,6 @@
             android:padding="8dp">
         </TextView>
 
-
     </LinearLayout>
 
     <RelativeLayout
@@ -119,7 +118,8 @@
                 android:textColor="@color/black"
                 android:textSize="14sp"
                 android:textStyle="bold"
-                tools:ignore="Suspicious0dp"></TextView>
+                tools:ignore="Suspicious0dp">
+            </TextView>
 
             <View
                 android:layout_width="0dp"

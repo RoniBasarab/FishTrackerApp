@@ -13,4 +13,5 @@ interface FishService
     @GET("fish")
     suspend fun getFishByName(@Query("search") search: String): List<Fish>
 
+
 }
