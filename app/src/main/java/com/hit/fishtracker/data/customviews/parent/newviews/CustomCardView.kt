@@ -14,4 +14,5 @@ class CustomCardView @JvmOverloads constructor(
     override fun inflate(): FishItemBinding = FishItemBinding.inflate(LayoutInflater.from(context),this,true)
 
 
+
 }

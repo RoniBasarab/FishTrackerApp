@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.hit.fishtracker.data.adapter.FishAdapter
 import com.hit.fishtracker.data.database.FishDatabase
 import com.hit.fishtracker.data.model.Fish
